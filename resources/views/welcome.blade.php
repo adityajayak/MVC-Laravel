@@ -98,3 +98,4 @@
         </div>
     </body>
 </html>
+<?php echo $data->first_name." ".$data->last_name ?>

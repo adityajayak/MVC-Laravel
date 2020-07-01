@@ -10,7 +10,7 @@
     <h1>Buat Akun Baru!</h1>
     <h2 style="font-size:18px;">Sing Up Form </h2>
 
-    <form action="/welcome" method="Post">
+    <form action="/welcomea" method="Post">
         @csrf 
         <label>Name:</label><br><br>
         <input type="text" name="fname"><br><br>
