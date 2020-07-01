@@ -17,10 +17,11 @@ Route::get('/', function () {
 Route::get('/Register', function () {
     return view('Register');
 });
-Route::get('/welcomku', function () {
-    return view('welcomku');
+Route::get('/wolcomea', function () {
+    return view('welcomea');
 });
+
 Route::get('/Register', 'HomeController@Register' );
-Route::get('/welcome', 'AuthController@welcome');
-Route::post('/welcome', 'AuthContoller@welcome_post');
+Route::get('/welcomea', 'AuthController@welcomea');
+Route::post('/welcomea', 'AuthController@welcomea_post');
 
